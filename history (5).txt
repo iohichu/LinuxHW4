@@ -1,0 +1,72 @@
+   0 pwd
+   1 whoami
+   2 ls 
+   3 ls /opt
+   4 ls -l
+   5 ls --help
+   6 clear
+   7 history
+   8 cd /home/
+   9 ls
+  10 ls -a
+  11 mkdir user1
+  12 ls
+  13 cd user1/
+  14 mkdir task1
+  15 cd task1/
+  16 touch file1.txt
+  17 ls
+  18 cd 
+  19 ls
+  20 touch .file.txt
+  21 ls
+  22 ls -a
+  23 mkdir .folder
+  24 ls
+  25 ls -a
+  26 clear
+  27 tree /home/
+  28 tree
+  29 mkdir home/user2
+  30 mkdir /home/user2
+  31 ls /home
+  32 mkdir /home/user2
+  33 mkdir /home/user2/task2
+  34 touch /home/user2/task2/file2.txt
+  35 tree /home/
+  36 clear
+  37 tree /home/
+  38 mkdir /home/user3/task3
+  39 mkdir --help
+  40 mkdir -p /home/user3/task3
+  41 touch /home/user3/task3/file3.txt
+  42 mkdir -p /home/user4/task4/ && touch /home/user4/user4/file4.txt
+  43 mkdir -p /home/user4/task4/ && touch /home/user4/task4/file4.txt
+  44 history
+  45 clear
+  46 tree /home/
+  47 cp /home/user1/task1/file1.txt /opt
+  48 ls -l /opt/
+  49 cp /home/user1/task1/file1.txt /opt/newfile1.txt
+  50 cp /home/user1/task1/file1.txt /opt/file1.txt
+  51 cp /home/user2 /opt
+  52 cp --help
+  53 cp -r /home/user2 /opt
+  54 clear
+  55 tree /home/
+  56 mv /home/user3 /opt
+  57 ls
+  58 mv /root/readme.txt /root/1.txt
+  59 ls
+  60 rmdir /home/user4
+  61 rmdir --help
+  62 rmdir -p /home/user4
+  63 rmdir -- /home/user4
+  64 rmdir --ignore /home/user4
+  65 rm /home/user3
+  66 rm /home/user2
+  67 rm /home/user2/task2/file2.txt 
+  68 rm -r /home/
+  69 clear
+  70 history
+  71 history > history.txt
